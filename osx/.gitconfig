@@ -1,0 +1,14 @@
+[user]
+	email = diego@dperini.com
+	name = Diego Perini
+[push]
+	default = simple
+[core]
+	editor = nano
+[merge]
+	tool = opendiff
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
