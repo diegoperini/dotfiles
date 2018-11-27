@@ -52,6 +52,7 @@ alias grep='grep --color'
 
 # Better ls
 alias ls='ls -G -F -a'
+
 # Better cd
 function cd {
     builtin cd "$@" && ls
