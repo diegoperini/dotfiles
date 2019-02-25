@@ -47,6 +47,9 @@ export USER_HOME=$HOME
 GOPATH=$HOME/go
 PATH=$GOPATH/bin:$PATH
 
+# Flutter
+export PATH=$PATH:$HOME/flutter/bin
+
 # Better grep
 alias grep='grep --color'
 
